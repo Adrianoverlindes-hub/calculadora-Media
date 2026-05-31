@@ -23,35 +23,6 @@ public class calculadoraMedia {
 
         double resultado;
 
-        switch (opcao) {
-            case 1:
-                resultado = num1 + num2;
-                System.out.println("Resultado: " + resultado);
-                break;
-
-            case 2:
-                resultado = num1 - num2;
-                System.out.println("Resultado: " + resultado);
-                break;
-
-            case 3:
-                resultado = num1 * num2;
-                System.out.println("Resultado: " + resultado);
-                break;
-
-            case 4:
-                if (num2 != 0) {
-                    resultado = num1 / num2;
-                    System.out.println("Resultado: " + resultado);
-                } else {
-                    System.out.println("Erro: divisão por zero!");
-                }
-                break;
-
-            default:
-                System.out.println("Opção inválida!");
-        }
-
         scanner.close();
     }
 }
